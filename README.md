@@ -14,15 +14,14 @@ Quick start
 
    python -m venv .venv
    source .venv/bin/activate
-   # Install `uv` first if you plan to use `uv` commands (optional). If you don't have
-   # `uv` installed, you can install it via pip:
+   ## Install `uv` first if you plan to use `uv` commands (optional). If you don't have `uv` installed, you can install it via pip:
    python -m pip install --upgrade pip
    python -m pip install uv
 
-   # Then you can use uv-based commands (example below uses `uv sync`).
+   ## Then you can use uv-based commands (example below uses `uv sync`).
    uv pip install -e .
 
-   # Or just use
+   ## Or just use
    pip install -e .
 
 2. Run server locally:
