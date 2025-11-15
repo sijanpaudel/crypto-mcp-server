@@ -1,0 +1,17 @@
+[project]
+name = "crypto-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+# Recommended dependencies for running and testing the demo
+dependencies = [
+  "fastapi>=0.95",
+  "uvicorn[standard]>=0.22",
+  "httpx>=0.24",
+  "ccxt>=2.0.0, <3",
+  "pytest>=7.0",
+  "pytest-asyncio>=0.22",
+  "requests>=2.0",
+  "starlette>=0.27"
+]
